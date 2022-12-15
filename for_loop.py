@@ -39,9 +39,15 @@ len(l)
 l.append(42)
 l
 
-# 
-l=[1,2,3,4] #copy() ile Aliasing(Adres Paylaşımı önlenir)
+# 8
+l=[1,2,3,4] #copy() ile Aliasing (Adres Paylaşımı önlenir)
 l1=l.copy()
 l[0]='irem'
 print(l)
 print(l1)
+
+#agg=0
+notlar=[60,40,50]
+for i in notlar:
+  agg+=i
+print("avarage of students' score: ",agg/len(notlar) )
