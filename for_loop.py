@@ -18,4 +18,30 @@ index=0
 while index<=len(x):
     print(x[index])
     index+=1
-# 5    
+
+# 5   
+ for i in range(10):
+    if i==4:
+        break
+    print(i)   
+
+# 6
+i=0
+while (i<10):
+    if(i==3 or i==5):
+        continue
+    print("i:", i)
+    i+=1
+
+# 7
+l=[1,2,3]
+len(l)
+l.append(42)
+l
+
+# 
+l=[1,2,3,4] #copy() ile Aliasing(Adres Paylaşımı önlenir)
+l1=l.copy()
+l[0]='irem'
+print(l)
+print(l1)
