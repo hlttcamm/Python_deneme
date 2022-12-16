@@ -70,12 +70,31 @@ for i in range(len(l)):
     if x==l[i]:
         print("number being looked is available")
         break
+        
  # 12
  list={'ali':90,'veli':80,'can':45}
 for i in list:       # i sırasıyla listenin value değerlerini alacak!!!
     score=list[i]
     if score>=70:
         print("Person passing lesson: ",i)
+
   # 13
   for k,v in list.items():
     print("key:", k, "value:", v)
+
+# 14
+def f(x):
+    if x%2==0:
+        return x*x
+    else: 
+        return x+10
+print(f(6))    
+print(f(3))   
+
+# 15
+m=[[10,11,12],[13,14],[15,16,17,18]] # Bu liste içindeki listeri kaldırıp tüm elamnları bir listede toplama
+list=[]
+for i in m:
+ for x in range(len(i)):
+    list.append(i[x])
+print('new created list:', list)
