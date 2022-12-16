@@ -46,8 +46,39 @@ l[0]='irem'
 print(l)
 print(l1)
 
+# 9
 #agg=0
 notlar=[60,40,50]
 for i in notlar:
   agg+=i
 print("avarage of students' score: ",agg/len(notlar) )
+
+# 10
+
+scores=[90,72,81,77]
+for i in range(len(scores)):
+    if i==1:
+     continue
+     scores[i]+=5
+print("rearanged scores: ", scores)    
+
+# 11
+#Finding determined numbers in List
+x=int(input("Which number are you looking for?"))
+l=[2,3,40,100,10,1]
+for i in range(len(l)):
+    if x==l[i]:
+        print("number being looked is available")
+        break
+ # 12
+ list={'ali':90,'veli':80,'can':45}
+for i in list:       # i sırasıyla listenin value değerlerini alacak!!!
+    score=list[i]
+    if score>=70:
+        print("Person passing lesson: ",i)
+  # 13
+  list={'ali':90,'veli':80,'can':45}
+for i in list:       # i sırasıyla listenin value değerlerini alacak!!!
+    score=list[i]
+    if score>=70:
+        print("Person passing lesson: ",i)
