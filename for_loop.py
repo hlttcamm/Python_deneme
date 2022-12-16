@@ -77,8 +77,5 @@ for i in list:       # i sırasıyla listenin value değerlerini alacak!!!
     if score>=70:
         print("Person passing lesson: ",i)
   # 13
-  list={'ali':90,'veli':80,'can':45}
-for i in list:       # i sırasıyla listenin value değerlerini alacak!!!
-    score=list[i]
-    if score>=70:
-        print("Person passing lesson: ",i)
+  for k,v in list.items():
+    print("key:", k, "value:", v)
